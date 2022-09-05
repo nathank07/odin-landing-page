@@ -16,17 +16,10 @@ body{
     font-size: x-large;
 }
 
-.s1 .header, .s2 .header{
+.s1 .header{
     font-weight: bold;
     background-color: transparent;
     padding: 0;
-}
-
-.s2 .header{
-    display: flex;
-    margin: 32px 0px 16px 0px;
-    align-items: center;
-    justify-content: center;
 }
 
 .s1 img{
@@ -35,14 +28,7 @@ body{
 }
 
 .s2 img {
-    width:100px;
-    border-radius: 25px;
-    border: 5px solid brown;
-    margin: 16px 16px 16px 16px;
-}
-
-.s2 .subtext {
-    text-align: center;
+    width:50px;
 }
 
 .staff{
@@ -54,9 +40,7 @@ body{
 .s1 button {
     background-color: lightpink;
     color:brown;
-    border-color: brown;
     width:100px;
-    border-radius: 10px;
 }
 
 .s1{
@@ -65,10 +49,6 @@ body{
     align-items: center;
     padding: 50px;
     background-color: pink;
-}
-
-.s2{
-    padding-bottom: 32px;
 }
 
 .vstack{
